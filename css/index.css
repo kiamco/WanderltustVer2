@@ -130,11 +130,12 @@ table {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 100%;
 }
 .nav {
   font-family: 'Poppins', sans-serif;
-  margin-top: 20px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -143,16 +144,41 @@ table {
 .nav a {
   text-decoration: none;
   color: white;
+  margin-top: 50px;
 }
 .nav img {
   width: 40px;
   height: 40px;
+  margin-top: 50px;
+}
+.nav .sign {
+  margin-top: 50px;
 }
 .nav .sign .login {
   border: 2px solid #475EAE;
   margin-right: -5px;
+  margin-top: 50px;
+  padding: 10px 20px;
+}
+.nav .sign .login:hover {
+  border: 2px solid white;
 }
 .nav .sign .join {
   border: 2px solid #475EAE;
   background: #475EAE;
+  padding: 10px 20px;
+}
+.nav .sign .join:hover {
+  border: 2px solid white;
+}
+.landing {
+  background-image: url('../img/homepage/edited-bg\ \(1\).png'), url('../img/homepage/jeremy-thomas-E0AHdsENmDg-unsplash.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 2180px;
+  min-height: 700px;
+  max-height: 1000px;
+  margin-top: -20px;
 }
